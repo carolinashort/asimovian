@@ -1,17 +1,8 @@
 {
 .appVersion = "3260";
 DisplayStrings = (
-"asimovian/space 1/bullet ¶§/infinity ¢£/trademark ¡",
-"é",
-"aá",
-"/baston_n_min uú",
-"/circumflexcomb_acutecomb/circumflexcomb_acutecomb/Acircumflexacute",
-"/won",
-"/rupeeIndian",
-"°",
-"©",
-"aªaAordfeminine",
-"º"
+"º",
+"/dottedCircle"
 );
 customParameters = (
 {
@@ -38223,28 +38214,59 @@ rightMetricsKey = rightArrow;
 unicode = 2195;
 },
 {
+export = 0;
 glyphname = dottedCircle;
-lastChange = "2024-11-23 05:05:47 +0000";
+lastChange = "2024-11-28 01:28:46 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{508, -115}";
+},
+{
+name = center;
+position = "{508, 359}";
+},
+{
+name = left;
+position = "{40, 359}";
+},
+{
+name = middle;
+position = "{508, 364}";
+},
+{
+name = right;
+position = "{976, 359}";
+},
+{
+name = top;
+position = "{508, 826}";
+},
+{
+name = top;
+position = "{508, 826}";
+}
+);
 layerId = "45F6A7D2-68A2-4980-BE0C-7C210C91EB90";
 paths = (
 {
 closed = 1;
 nodes = (
-"508 826 LINE",
-"461 779 LINE",
-"508 732 LINE",
-"555 779 LINE"
+"759 700 LINE",
+"742 764 LINE",
+"678 747 LINE",
+"695 683 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"508 -16 LINE",
-"461 -63 LINE",
-"508 -110 LINE",
-"555 -63 LINE"
+"914 592 LINE",
+"850 609 LINE",
+"833 545 LINE",
+"897 528 LINE"
 );
 },
 {
@@ -38259,19 +38281,55 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"134 359 LINE",
-"87 406 LINE",
-"40 359 LINE",
-"87 312 LINE"
+"914 124 LINE",
+"897 188 LINE",
+"833 171 LINE",
+"850 107 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"914 124 LINE",
-"897 188 LINE",
-"833 171 LINE",
-"850 107 LINE"
+"760 18 LINE",
+"696 35 LINE",
+"679 -29 LINE",
+"743 -46 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"555 -63 LINE",
+"508 -16 LINE",
+"461 -63 LINE",
+"508 -110 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"338 -29 LINE",
+"321 35 LINE",
+"257 18 LINE",
+"274 -46 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"185 171 LINE",
+"121 188 LINE",
+"104 124 LINE",
+"168 107 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"134 359 LINE",
+"87 406 LINE",
+"40 359 LINE",
+"87 312 LINE"
 );
 },
 {
@@ -38286,55 +38344,19 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"274 -46 LINE",
-"338 -29 LINE",
-"321 35 LINE",
-"257 18 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"695 683 LINE",
-"759 700 LINE",
-"742 764 LINE",
-"678 747 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"743 -46 LINE",
-"760 18 LINE",
-"696 35 LINE",
-"679 -29 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"322 683 LINE",
 "339 747 LINE",
 "275 764 LINE",
-"258 700 LINE"
+"258 700 LINE",
+"322 683 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"104 124 LINE",
-"168 107 LINE",
-"185 171 LINE",
-"121 188 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"833 545 LINE",
-"897 528 LINE",
-"914 592 LINE",
-"850 609 LINE"
+"555 779 LINE",
+"508 826 LINE",
+"461 779 LINE",
+"508 732 LINE"
 );
 }
 );
@@ -42030,15 +42052,11 @@ instances = (
 {
 customParameters = (
 {
-name = nameTableEntry;
-value = "1; Asimovian";
-},
-{
-name = nameTableEntry;
-value = "2; Regular";
-},
-{
 name = familyName;
+value = Asimovian;
+},
+{
+name = WWSFamilyName;
 value = Asimovian;
 }
 );
