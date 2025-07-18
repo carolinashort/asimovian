@@ -2,7 +2,31 @@
 .appVersion = "3420";
 .formatVersion = 3;
 DisplayStrings = (
-"LĽdďlľtť"
+"Zero Handles:
+(){˛₹̨
+
+Angled Handles:
+$&(),12345689;@BDGJKPRSTVWXYcfgjklmrtvwy{£¥§ª®Ðßæèéðœ˘‘’™∂∞‚∫˜ĐƏĲ/Jacute ĶḴẞəȷł฿₴₹₪₩̧̛̆̃̒ʽʿ
+
+Shallow Curve:
+™
+
+Small Curve BBox:
+mw™₪
+
+Almost Orthogonal Lines:
+#$*,12;=ADMNPQRSTUf{¥®¶ÀÐß–‘„∑√≠‚ĐƏĦĹĻḶḸḺŁṀẞđħ€₴₽₪̉̒ʿ
+
+Short Line Segments:
+ß√ẞ₪̉
+
+Bad Outline Order:
+x
+
+Bad Path Orientation:
+*R®ÐØĐ฿
+
+"
 );
 customParameters = (
 {
@@ -24092,6 +24116,28 @@ width = 600;
 unicode = 8206;
 },
 {
+glyphname = lineseparator;
+lastChange = "2025-07-18 13:59:45 +0000";
+layers = (
+{
+layerId = "45F6A7D2-68A2-4980-BE0C-7C210C91EB90";
+width = 600;
+}
+);
+unicode = 8232;
+},
+{
+glyphname = paragraphseparator;
+lastChange = "2025-07-18 13:57:45 +0000";
+layers = (
+{
+layerId = "45F6A7D2-68A2-4980-BE0C-7C210C91EB90";
+width = 600;
+}
+);
+unicode = 8233;
+},
+{
 glyphname = righttoleftmark;
 layers = (
 {
@@ -29429,7 +29475,7 @@ width = 600;
 {
 export = 0;
 glyphname = newGlyph.004;
-lastChange = "2024-02-16 04:22:05 +0000";
+lastChange = "2025-07-18 13:59:09 +0000";
 layers = (
 {
 layerId = "45F6A7D2-68A2-4980-BE0C-7C210C91EB90";
